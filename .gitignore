@@ -296,3 +296,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/CS/Bin
+/CS/Documents/*
+/VB/bin
+/VB/Documents/4dxlogo.jpg

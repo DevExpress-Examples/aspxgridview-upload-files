@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using DevExpress.Web;
 using System.IO;
 
@@ -29,7 +28,7 @@ public partial class _Default : System.Web.UI.Page
             return list;
         }
     }
-    protected void ASPxUploadControl1_FileUploadComplete(object sender, DevExpress.Web.FileUploadCompleteEventArgs e)
+    protected void ASPxUploadControl1_FileUploadComplete(object sender, FileUploadCompleteEventArgs e)
     {
         if (e.IsValid)
         {
@@ -45,8 +44,8 @@ public partial class _Default : System.Web.UI.Page
 
     protected void ASPxHyperLink_Load(object sender, EventArgs e)
     {
-        ASPxHyperLink hpl = sender as ASPxHyperLink;
-        GridViewDataItemTemplateContainer c = hpl.NamingContainer as GridViewDataItemTemplateContainer;
+        ASPxHyperLink hpl = (ASPxHyperLink)sender;
+        GridViewDataItemTemplateContainer c = (GridViewDataItemTemplateContainer)hpl.NamingContainer;
         if (!String.IsNullOrWhiteSpace(FileList[c.VisibleIndex].FileName) && !String.IsNullOrWhiteSpace(FileList[c.VisibleIndex].Url))
         {
             hpl.Text = FileList[c.VisibleIndex].FileName;
