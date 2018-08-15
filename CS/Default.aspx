@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>ASPxGridView - How to upload files in Edit mode and see them on a cell click in Browse mode</title>
     <script type="text/javascript">
         function OnFileUploadComplete(s, e) {
             if (e.callbackData !== "") {
