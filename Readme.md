@@ -21,7 +21,7 @@ In this example, the [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpres
 </dx:GridViewDataTextColumn>
 ```
 
-Initially, the links are empty. The column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) contains [ASPxUploadControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxUploadControl) that allows users to upload files in edit mode. 
+The links are initially empty. The column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) contains [ASPxUploadControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxUploadControl), which allows users to upload files in edit mode. 
 
 ```aspx
  <dx:GridViewDataTextColumn FieldName="Url" UnboundType="Object" VisibleIndex="6">
