@@ -38,7 +38,7 @@ The links are initially empty. The column's [EditItemTemplate](https://docs.deve
 </dx:GridViewDataTextColumn>
 ```
 
-The link column displays the uploaded image names. Click a name to open the image.
+The Url column displays the uploaded image names. Click a name to open the image.
 
 ![Grid View - Links in grid](unbound-column-with-links.png)
 ## Files to Look At
