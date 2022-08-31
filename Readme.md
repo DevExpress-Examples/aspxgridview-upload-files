@@ -9,7 +9,13 @@
 **[[Run Online]](https://codecentral.devexpress.com/128536085/)**
 <!-- run online end -->
 
-In this example, the [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView)'s [unbound column](https://docs.devexpress.com/AspNet/3732/components/grid-view/concepts/data-representation-basics/columns/unbound-columns) contains hyperlinks ([ASPxHyperLink](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxHyperLink) controls). 
+This example demonstrates how to upload image files from the Grid View edit form and display the uploaded images. 
+
+![Grid View - Links in grid](unbound-column-with-links.png)
+
+## Implementation Details
+
+The Grid View in this example contains an [unbound column](https://docs.devexpress.com/AspNet/3732/components/grid-view/concepts/data-representation-basics/columns/unbound-columns) populated with [ASPxHyperLink](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxHyperLink) controls. When a data row has no image, the link has no target and displays the `"No data uploaded"` text.
 
 ```aspx
  <dx:GridViewDataTextColumn FieldName="Url" UnboundType="Object" VisibleIndex="6">
@@ -21,7 +27,7 @@ In this example, the [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpres
 </dx:GridViewDataTextColumn>
 ```
 
-The links are initially empty. The column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) contains [ASPxUploadControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxUploadControl), which allows users to upload files in edit mode. 
+The link column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.EditItemTemplate) contains an [ASPxUploadControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxUploadControl), which allows users to upload files in edit mode. 
 
 ```aspx
  <dx:GridViewDataTextColumn FieldName="Url" UnboundType="Object" VisibleIndex="6">
@@ -38,13 +44,10 @@ The links are initially empty. The column's [EditItemTemplate](https://docs.deve
 </dx:GridViewDataTextColumn>
 ```
 
-The Url column displays the uploaded image names. Click a name to open the image.
-
-![Grid View - Links in grid](unbound-column-with-links.png)
 ## Files to Look At
 <!-- default file list -->
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
-* [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+- [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
+- [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 
 ## Documentation
