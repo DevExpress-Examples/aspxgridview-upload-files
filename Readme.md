@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # GridView for Web Forms - How to upload files in Edit mode and see them on a click in Browse mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128536085/)**
-<!-- run online end -->
 
 This example demonstrates how to upload image files from the Grid View edit form and display the uploaded images. 
 
