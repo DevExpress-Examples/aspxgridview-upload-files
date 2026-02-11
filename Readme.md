@@ -57,7 +57,7 @@ The link column's [EditItemTemplate](https://docs.devexpress.com/AspNet/DevExpre
 
 - [GridView for Web Forms - How to upload files in Edit mode and save them in a binary column](https://github.com/DevExpress-Examples/aspxgridview-how-to-upload-files-in-edit-mode-and-save-them-in-a-binary-column-t285123)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=aspxgridview-upload-files&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=aspxgridview-upload-files&~~~was_helpful=no)
 
